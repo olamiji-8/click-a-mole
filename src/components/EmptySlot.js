@@ -1,5 +1,6 @@
 import { useEffect } from "react"; 
 import molehill from "../img/molehill.png"
+import mole1 from "../img/mole1.jpg"
 
 export default function EmptySlot(props){
 
@@ -12,7 +13,7 @@ export default function EmptySlot(props){
     })
     return(
         <div>
-            <img src={molehill} alt="molehill" className="image"/>
+            <img src={mole1} alt="mole1" className="image"/>
         </div>
     )
 }
